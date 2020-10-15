@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         child: Consumer<MyThemeModel>(
           builder: (context, theme, child) => MaterialApp(
             debugShowCheckedModeBanner: false,
-            title: 'Analog Clock',
+            title: 'Clock',
             theme: themeData(context),
             darkTheme: darkThemeData(context),
             themeMode: theme.isLightTheme ? ThemeMode.light : ThemeMode.dark,
